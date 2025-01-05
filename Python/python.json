@@ -1,0 +1,148 @@
+"#!/usr/bin/env pythonX": {
+    "prefix": "#env",
+    "description": "Shebang line for the first python in PATH"
+},
+"pyright ignore line": {
+    "prefix": "#ignore",
+    "description": "Ignore specific line diagnostic in pyright (ignore all is unsafe)"
+},
+"Multiline string": {
+    "prefix": "#",
+    "description": "Snippet to avoid autopair plugin annoyances when typing multiple \""
+},
+"One-line multiline string": {
+    "prefix": "##",
+    "description": "Snippet to avoid autopair plugin annoyances when typing multiple \""
+},
+"self": {
+    "prefix": "s",
+    "description": "Snippet to reference the self property in an object"
+},
+"__magic__": {
+    "prefix": "__",
+    "description": "Create magic method"
+},
+"if __name__ == __main__": {
+    "prefix": "ifmain",
+    "description": "Execute code if the file is executed directly"
+},
+"import": {
+    "prefix": "import",
+    "description": "Import a package or module"
+},
+"from ... import ...": {
+    "prefix": "fromim",
+    "description": "Import individual objects directly into the caller’s symbol table"
+},
+"if": {
+    "prefix": "if",
+    "description": "if statement"
+},
+"elif": {
+    "prefix": "elif",
+    "description": "elif statement"
+},
+"else": {
+    "prefix": "else",
+    "description": "else statement"
+},
+"if/else": {
+    "prefix": "ifelse",
+    "description": "if statement with else"
+},
+"match/case": {
+    "prefix": "match",
+    "description": "match/case statements"
+},
+"case": {
+    "prefix": "case",
+    "description": "case block"
+},
+"case wildcard": {
+    "prefix": "casew",
+    "description": "case wildcard block if other cases fail"
+},
+"while": {
+    "prefix": "while",
+    "description": "while loop"
+},
+"for": {
+    "prefix": "for",
+    "description": "for loop"
+},
+"for w/ range": {
+    "prefix": "forr",
+    "description": "for loop that iterates over range of integers"
+},
+"with": {
+    "prefix": "with",
+    "description": "'with' statement"
+},
+"lambda": {
+    "prefix": "lambda",
+    "description": "lambda statement"
+},
+"Function": {
+    "prefix": "def",
+    "description": "Function definition"
+},
+"Function w/ return type": {
+    "prefix": "deft",
+    "description": "Function definition with return type"
+},
+"class": {
+    "prefix": "class",
+    "description": "Class definition"
+},
+"Derived class": {
+    "prefix": "classd",
+    "description": "Class definition with inheritance"
+},
+"class template": {
+    "prefix": "classi",
+    "description": "Class definition template"
+},
+"Method": {
+    "prefix": "defs",
+    "description": "Class method definition"
+},
+"Method w/ return type": {
+    "prefix": "defst",
+    "description": "Class method definition"
+},
+"property template": {
+    "prefix": "property",
+    "description": "New property: get and set via decorator"
+},
+"except": {
+    "prefix": "except",
+    "description": "except statement"
+},
+"except as": {
+    "prefix": "exceptas",
+    "description": "'except as' statement"
+},
+"try/except": {
+    "prefix": "try",
+    "description": "try/except blocks"
+},
+"try/except/else": {
+    "prefix": "trya",
+    "description": "try/except/else blocks"
+},
+"try/except/finally": {
+    "prefix": "tryf",
+    "description": "try/except/finally blocks"
+},
+"try/except/else/finally": {
+    "prefix": "tryef",
+    "description": "try/except/else/finally blocks"
+},
+"Jupyter cell": {
+    "prefix": "#cell",
+    "description": "Add a new cell"
+},
+"Jupyter markdown cell": {
+    "prefix": "#mark",
+    "description": "Add a new markdown cell"
+}

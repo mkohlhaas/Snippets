@@ -1,0 +1,39 @@
+"Assert equal": {
+    "prefix": "ase",
+},
+"Assert not equal": {
+    "prefix": "asne",
+},
+"Assert raises": {
+    "prefix": "asr",
+},
+"Assert True": {
+    "prefix": "ast",
+},
+"Assert False": {
+    "prefix": "asf",
+},
+"Assert is": {
+    "prefix": "asi",
+},
+"Assert is not": {
+    "prefix": "asint",
+},
+"Assert is None": {
+    "prefix": "asino",
+},
+"Assert is not None": {
+    "prefix": "asinno",
+},
+"Assert in": {
+    "prefix": "asin",
+},
+"Assert not in": {
+    "prefix": "asni",
+},
+"Assert": {
+    "prefix": "as",
+},
+"Fail (a test)": {
+    "prefix": "fail",
+}

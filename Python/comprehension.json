@@ -1,0 +1,36 @@
+"List comprehension": {
+    "prefix": "lc",
+    "description": "List comprehension for creating a list based on existing lists."
+},
+"List comprehension if else": {
+    "prefix": "lcie",
+    "description": "List comprehension for creating a list based on existing lists, with conditional if-else statement."
+},
+"List comprehension if filter": {
+    "prefix": "lci",
+    "description": "List comprehension for creating a list based on existing lists, with conditional if statement."
+},
+"Dictionary comprehension": {
+    "prefix": "dc",
+    "description": "Handy and faster way to create dictionaries based on existing dictionaries."
+},
+"Dictionary comprehension if filter": {
+    "prefix": "dci",
+    "description": "Handy and faster way to create dictionaries based on existing dictionaries, with conditional if statement."
+},
+"Set comprehension": {
+    "prefix": "sc",
+    "description": "Create a set based on existing iterables."
+},
+"Set Comprehension if filter": {
+    "prefix": "sci",
+    "description": "Create a set based on existing iterables, with condition if statement."
+},
+"Generator comprehension": {
+    "prefix": "gc",
+    "description": "Create a generator based on existing iterables."
+},
+"Generator comprehension if filter": {
+    "prefix": "gci",
+    "description": "Create a generator based on existing iterables, with condition if statement."
+}

@@ -1,0 +1,276 @@
+"allow": {
+    "prefix": "allow",
+    "description": "#![allow(…)]"
+},
+"deny": {
+    "prefix": "deny",
+    "description": "#![deny(…)]"
+},
+"warn": {
+    "prefix": "warn",
+    "description": "#![warn(…)]"
+},
+"no_std": {
+    "prefix": "no_std",
+    "description": "#![no_std]"
+},
+"no_core": {
+    "prefix": "no_core",
+    "description": "#![no_core]"
+},
+"feature": {
+    "prefix": "feature",
+    "description": "#![feature(…)]"
+},
+"macro_use": {
+    "prefix": "macro_use",
+    "description": "#[macro_use(…)]"
+},
+"repr": {
+    "prefix": "repr",
+    "description": "#[repr(…)]"
+},
+"cfg": {
+    "prefix": "cfg",
+    "description": "#[cfg(…)]"
+},
+"cfg_attr": {
+    "prefix": "cfg_attr",
+    "description": "#[cfg_attr(…, …)]"
+},
+"cfg!": {
+    "prefix": "cfg!",
+    "description": "cfg!(…)"
+},
+"column": {
+    "prefix": "column",
+    "description": "column!()"
+},
+"concat": {
+    "prefix": "concat",
+    "description": "concat!(…)"
+},
+"concat_idents": {
+    "prefix": "concat_idents",
+    "description": "concat_idents!(…)"
+},
+"debug_assert": {
+    "prefix": "debug_assert",
+    "description": "debug_assert!(…)"
+},
+"debug_assert_eq": {
+    "prefix": "debug_assert_eq",
+    "description": "debug_assert_eq!(…, …)"
+},
+"env": {
+    "prefix": "env",
+    "description": "env!(\"…\")"
+},
+"file": {
+    "prefix": "file",
+    "description": "file!()"
+},
+"format": {
+    "prefix": "format",
+    "description": "format!(…)"
+},
+"format_args": {
+    "prefix": "format_args",
+    "description": "format_args!(…)"
+},
+"include": {
+    "prefix": "include",
+    "description": "include!(\"…\");"
+},
+"include_bytes": {
+    "prefix": "include_bytes",
+    "description": "include_bytes!(\"…\")"
+},
+"include_str": {
+    "prefix": "include_str",
+    "description": "include_str!(\"…\")"
+},
+"line": {
+    "prefix": "line",
+    "description": "line!()"
+},
+"module_path": {
+    "prefix": "module_path",
+    "description": "module_path!()"
+},
+"option_env": {
+    "prefix": "option_env",
+    "description": "option_env!(\"…\")"
+},
+"panic": {
+    "prefix": "panic",
+    "description": "panic!(…);"
+},
+"print": {
+    "prefix": "print",
+    "description": "print!(…);"
+},
+"println": {
+    "prefix": "println",
+    "description": "println!(…);"
+},
+"stringify": {
+    "prefix": "stringify",
+    "description": "stringify!(…)"
+},
+"thread_local": {
+    "prefix": "thread_local",
+    "description": "thread_local!(static …: … = …);"
+},
+"try": {
+    "prefix": "try",
+    "description": "try!(…)"
+},
+"unimplemented": {
+    "prefix": "unimplemented",
+    "description": "unimplemented!()"
+},
+"unreachable": {
+    "prefix": "unreachable",
+    "description": "unreachable!(…)"
+},
+"vec": {
+    "prefix": "vec",
+    "description": "vec![…]"
+},
+"write": {
+    "prefix": "write",
+    "description": "write!(…)"
+},
+"writeln": {
+    "prefix": "writeln",
+    "description": "writeln!(…, …)"
+},
+"assert": {
+    "prefix": "assert",
+    "description": "assert!(…);"
+},
+"assert_eq": {
+    "prefix": "assert_eq",
+    "description": "assert_eq!(…, …);"
+},
+"bench": {
+    "prefix": "bench",
+    "description": "#[bench]"
+},
+"const": {
+    "prefix": "const",
+    "description": "const …: … = …;"
+},
+"derive": {
+    "prefix": "derive",
+    "description": "#[derive(…)]"
+},
+"enum": {
+    "prefix": "enum",
+    "description": "enum … { … }"
+},
+"extern-crate": {
+    "prefix": "extern-crate",
+    "description": "extern crate …;"
+},
+"extern-fn": {
+    "prefix": "extern-fn",
+    "description": "extern \"C\" fn …(…) { … }"
+},
+"extern-mod": {
+    "prefix": "extern-mod",
+    "description": "extern \"C\" { … }"
+},
+"pfn": {
+    "prefix": "pfn",
+    "description": "pub fn …(…) { … }"
+},
+"fn": {
+    "prefix": "fn",
+    "description": "fn …(…) { … }"
+},
+"for": {
+    "prefix": "for",
+    "description": "for … in … { … }"
+},
+"if-let": {
+    "prefix": "if-let",
+    "description": "if let … = … { … }"
+},
+"if": {
+    "prefix": "if",
+    "description": "if … { … }"
+},
+"impl-trait": {
+    "prefix": "impl-trait",
+    "description": "impl … for … { … }"
+},
+"inline-fn": {
+    "prefix": "inline-fn",
+    "description": "inlined function"
+},
+"macro_rules": {
+    "prefix": "macro_rules",
+    "description": "macro_rules! … { … }"
+},
+"main": {
+    "prefix": "main",
+    "description": "fn main() { … }"
+},
+"match": {
+    "prefix": "match",
+    "description": "match … { … }"
+},
+"mod-block": {
+    "prefix": "mod-block",
+    "description": "mod … { … }"
+},
+"static": {
+    "prefix": "static",
+    "description": "static …: … = …;"
+},
+"struct-tuple": {
+    "prefix": "struct-tuple",
+    "description": "struct …(…);"
+},
+"struct-unit": {
+    "prefix": "struct-unit",
+    "description": "struct …;"
+},
+"struct": {
+    "prefix": "struct",
+    "description": "struct … { … }"
+},
+"modtest": {
+    "prefix": "modtest",
+    "description": "#[cfg(test)]\nmod test {...}"
+},
+"test": {
+    "prefix": "test",
+    "description": "#[test]"
+},
+"trait": {
+    "prefix": "trait",
+    "description": "trait … { … }"
+},
+"type": {
+    "prefix": "type",
+    "description": "type … = …;"
+},
+"while-let": {
+    "prefix": "while-let",
+    "description": "while let … = … { … }"
+},
+"while": {
+    "prefix": "while",
+    "description": "while … { … }"
+},
+"pafn": {
+    "prefix": "pafn",
+    "description": "pub async fn …(…) { … }"
+},
+"afn": {
+    "prefix": "afn",
+    "description": "async fn …(…) { … }"
+}
